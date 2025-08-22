@@ -1,51 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./src/output.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airbnb Header</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-
-     <div class="flex gap-2">
-    <div><img src="./images/log1.jpg" alt=""></div>
-    <div class="text-red-400 font-bold text-3xl">airbnb</div>
-    </div>
+<body class="bg-white">
+  <header class="w-full flex items-center justify-between px-6 py-4 shadow-md">
+    
    
-
-    <div class="flex gap-10">
-       <div class="flex gap-2">
-    <div><img src="./images/log1.jpg" alt=""></div>
-    <div class="text-red-400 font-bold text-3xl">airbnb</div>
+    <div class="flex items-center gap-2">
+      <img src="./images/log1.jpg" alt="Logo" class="h-10 w-10">
+      <span class="text-red-500 font-bold text-2xl">airbnb</span>
     </div>
 
 
+    <nav class="flex items-center gap-8">
+      <a href="#" class="flex items-center gap-2 text-gray-700 font-medium border-b-2 border-black pb-1">
+        <img src="./images/home.png" alt="Homes" class="h-6">
+        <span>Homes</span>
+      </a>
+      <a href="#" class="flex items-center gap-2 text-gray-700 font-medium">
+        <img src="./images/bulb.png" alt="Experiences" class="h-6">
+        <span class="flex items-center gap-1">
+          Experiences
+          <span class="bg-gray-200 text-gray-800 text-xs font-semibold px-1 rounded">NEW</span>
+        </span>
+      </a>
+      <a href="#" class="flex items-center gap-2 text-gray-700 font-medium">
+        <img src="./images/service.png" alt="Services" class="h-100 w-10">
+        <span class="flex items-center gap-1">
+          Services
+          <span class="bg-gray-200 text-gray-800 text-xs font-semibold px-1 rounded">NEW</span>
+        </span>
+      </a>
+    </nav>
 
-       <div class="flex gap-2">
-    <div><img src="./images/log1.jpg" alt=""></div>
-    <div class="text-red-400 font-bold text-3xl">airbnb</div>
+    <div class="flex items-center gap-4">
+      <button class="text-gray-700 font-medium hover:underline">Become a host</button>
+      <button class="p-2 rounded-full hover:bg-gray-100">
+        <img src="./images/map.jpg" alt="Globe" class="h-6 w-6">
+      </button>
+      <button class="p-2 rounded-full hover:bg-gray-100">
+        <img src="./images/pic2.jpg" alt="Menu" class="h-8 w-8 rounded-full">
+      </button>
     </div>
 
-
-       <div class="flex gap-2">
-    <div><img src="./images/log1.jpg" alt=""></div>
-    <div class="text-red-400 font-bold text-3xl">airbnb</div>
-    </div>
-    </div>
-
-
-
-    <div>
-        
-        <div><p>Become Host</p></div>
-        <div><img src="" alt=""></div>
-    
-    
-    </div>
-    
-    
-
-     
+  </header>
 </body>
 </html>
